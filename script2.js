@@ -26,10 +26,7 @@ document.getElementById('form-examen').addEventListener('submit', function (e) {
 });
 
 
-
-
-
-const proprietaire = getElementById('proprietaire'); // ou récupéré via input
+/*const proprietaire = getElementById('proprietaire'); // ou récupéré via input
 const examsKey = 'examens_' + proprietaire.toLowerCase().replace(/\s+/g, '_');
 const examens = JSON.parse(localStorage.getItem(examsKey)) || [];
 
@@ -42,4 +39,4 @@ examens.forEach(exam => {
     liste.appendChild(item);
 });
 
-div.appendChild(liste);
+div.appendChild(liste);*/
